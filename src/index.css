@@ -1,0 +1,275 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.newcontainer {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+@font-face {
+  font-family: Heebo;
+  src: url(./fonts/Heebo-Regular.ttf);
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 33px;
+  p {
+    font-family: Heebo;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29.38px;
+    text-align: right;
+  }
+}
+.sec1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 140px;
+  flex-wrap: wrap;
+  h1 {
+    font-family: Heebo;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+    color: #21243d;
+  }
+  p {
+    font-family: Heebo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.5px;
+    text-align: left;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #21243d;
+  }
+  button {
+    font-family: Heebo;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29.38px;
+    text-align: center;
+    width: 208px;
+    height: 47px;
+    top: 477px;
+    left: 148px;
+    gap: 0px;
+    border-radius: 2px 0px 0px 0px;
+    opacity: 0px;
+    background: #ff6464;
+    color: #fff;
+    border: none;
+    margin-bottom: 70px;
+  }
+}
+.sec2 {
+  background-color: #edf7fa;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  p {
+    font-family: Heebo;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: left;
+    color: #21243d;
+  }
+}
+.vievall {
+  color: #00a8cc;
+  p {
+    font-family: Heebo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.5px;
+    text-align: right;
+  }
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 40px;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.card1 {
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 4px;
+
+  h1 {
+    font-family: Heebo;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 38.19px;
+    text-align: left;
+    color: #21243d;
+  }
+  h5 {
+    font-family: Heebo;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26.44px;
+    text-align: left;
+    color: #21243d;
+  }
+  p {
+    font-family: Heebo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.5px;
+    text-align: left;
+    color: #21243d;
+  }
+}
+.box1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 24px;
+
+  h1 {
+    font-family: Heebo;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 44.06px;
+    text-align: left;
+    color: #21243d;
+  }
+  p {
+    font-family: Heebo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.5px;
+    text-align: left;
+    color: #21243d;
+  }
+}
+.middle {
+  display: flex;
+  align-items: center;
+
+  gap: 24px;
+  button {
+    font-family: Heebo;
+    font-size: 18px;
+
+    text-align: center;
+    width: 62px;
+    height: 25px;
+    top: 1372px;
+    left: 410px;
+    gap: 0px;
+    border-radius: 16px;
+    opacity: 0px;
+    background-color: #142850;
+    color: #fff;
+  }
+  h5 {
+    font-family: Heebo;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29.38px;
+    text-align: left;
+    color: #8695a4;
+  }
+}
+.box-l {
+  img {
+    width: 100%;
+  }
+}
+.boxs {
+  margin-bottom: 134px;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.last {
+  p {
+    text-align: center;
+    font-family: Heebo;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.56px;
+    text-align: center;
+    color: #21243d;
+  }
+}
+.tittl {
+  p {
+    font-family: Heebo;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: left;
+    color: #21243d;
+  }
+}
+.right {
+  img {
+    width: 100%;
+  }
+}
+.inputs {
+  text-align: center;
+  textarea {
+    margin-top: 24px;
+    border-radius: 12px;
+    outline: none;
+  }
+  input {
+    width: 240px;
+    height: 24px;
+    border-radius: 12px;
+    outline: none;
+  }
+}
+.btn {
+  margin-top: 24px;
+  padding: 24px;
+  button {
+    padding: 12px;
+    background-color: #77b1c8;
+    color: #fff;
+    border: none;
+  }
+}
+.row {
+  font-family: Heebo;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.card {
+  width: 300px;
+  text-align: center;
+  border: solid 2px;
+  padding: 12px;
+  border-radius: 12px;
+  button {
+    background-color: #ff6464;
+    color: #edf7fa;
+    border: none;
+    padding: 8px;
+    font-family: Heebo;
+  }
+}
